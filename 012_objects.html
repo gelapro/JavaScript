@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JS objek
+        </title>
+    </head>
+    <body>
+
+     <p>Contoh objek</p>
+
+     <p id="demo"></p>
+
+    <script>
+        var person = {
+            nama1: "ahmad",
+            nama2: "zulkar",
+            id: 090909,
+            full_name: function() {
+                return this.nama1 + " " + this.nama2;
+            }
+        };
+
+       
+        document.getElementById("demo").innerHTML = person.full_name();
+    </script>
+
+    
+        
+
+    </body>
+</html>
